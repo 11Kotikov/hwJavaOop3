@@ -36,6 +36,6 @@ public class Component {
 
     @Override
     public int hashCode() {
-        return Objects.hash(this.name, this.power,this.power);
+        return Objects.hash(this.name, this.weight,this.power);
     }
 }
